@@ -1,0 +1,76 @@
+[
+    {
+        "slogan": {
+            "en": "MMITC is an International Trading Company formed by a team of experience professionals who have knowledge of the market and all the necessary marketing for each particular product.",
+            "es": "MMITC es una empresa de comercio internacional formada por un equipo de profesionales con experiencia que tienen conocimiento del mercado y todo el marketing necesario para cada producto en particular.",
+            "fr": "salut"
+        }
+    },
+    {
+        "home_menu": {
+            "en": "Home",
+            "es": "Inicio",
+            "fr": "french"
+        }
+    },
+    {
+        "about_us_menu": {
+            "en": "About Us",
+            "es": "Nosotros"
+        }
+    },
+    {
+        "mission_menu": {
+            "en": "Mission",
+            "es": "Misión"
+        }
+    },
+    {
+        "location_menu": {
+            "en": "Location",
+            "es": "Ubicación"
+        }
+    },
+    {
+        "market_menu": {
+            "en": "Market",
+            "es": "Mercado"
+        }
+    },
+    {
+        "contact_menu": {
+            "en": "Contact",
+            "es": "Contacto"
+        }
+    },
+    {
+        "about_us_1": {
+            "en": "MMITC was born with the goal to provide a service in International Trade that is more agile, safe and profitable in order.",
+            "es": ""
+        }
+    },
+    {
+        "about_us_2": {
+            "en": "MMITC accompanies the client every step of the way, ensuring compliance with the quality and time frames stipulated.",
+            "es": ""
+        }
+    },
+    {
+        "about_us_3": {
+            "en": "MMITC provides security, backup, quality and profits to its customers.",
+            "es": ""
+        }
+    },
+    {
+        "about_us_4": {
+            "en": "We are an international company specializing in the marketing of foods and products. Our team has vast experience and knowledge in international trade and offers a wide variety of high quality products.",
+            "es": ""
+        }
+    },
+    {
+        "mission_title": {
+            "en": "Mission | Vision | Objectives",
+            "es": "Misión | Visión | Objetivos"
+        }
+    }
+]
