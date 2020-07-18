@@ -6,6 +6,7 @@ import Welcome from './components/Welcome';
 import Products from './components/Products';
 import Market from './components/Market';
 /* import Contact from './components/Contact'; */
+import Footer from './components/Footer';
 
 function App() {
 
@@ -75,6 +76,9 @@ function App() {
       {/* <Contact 
       contact_menu={text !== '' ? text[7].contact_menu[lang] : null}
       /> */}
+      <Footer 
+      
+      />
     </Fragment>
   );
 }
