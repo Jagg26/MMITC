@@ -4,106 +4,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.header-wrapper {
-  width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
+h1{
+  font-weight: 500;
 }
-.container{
-  width: 90%;
-  max-width: 1000px;
-  margin: 200px auto; 
-  position: relative;
-}
-header {
-  width: 100%;
-  background: url('./img/bg5.jpg') #ae1c29;
-  background-size: contain;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center 0;
-  font-family: 'Roboto', sans-serif;
-}
-
-header .header-wrapper {
-  position: relative;
-  height: 700px;
-}
-
-.subheader {
-  width: 100%;
-  background: #FFF;
-  max-height: 100px;
-  padding: 20px 150px;
-}
-header .menu {
-  width: 50%;
-  text-align: right;
-  float: right;
-  margin-right: 300px;
-}
-
-header .menu a {
-  color: #333;
-  font-size: 16px;
-  font-weight: 400;
-  display: inline-block;
-  margin: 40px 30px;
-  text-decoration: none;
-  position: relative;
-  text-transform: uppercase;
-}
-
-header .menu a:hover {
+h3{
   font-weight: 600;
-  border-bottom: 2px solid #AE1C29;
-}
-header .menu p{
-  color: #000;
-  font-size: 16px;
-  font-weight: 300;
-  display: inline-block;
-  margin: 40px 0px;
-  text-decoration: none;
-  position: relative;
-  text-transform: uppercase;
 }
 
-header .logo {
-  width: 100%;
-  margin: auto 50px;
-}
-
-header .logo img {
-  vertical-align: top;
-  width: 8%;
-}
-
-header .language {
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  margin-left: 250px;
-  margin-top: -85px;
-}
-
-header .language div {
-  width: 30px;
-  height: 30px;
-  margin: 20px 20px;
-  border-radius: 50%;
-  background-clip: padding-box;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, .35);
-  cursor: pointer;
-}
-/*header .language div:hover{
-  border: 1px solid rgba(88, 88, 88, .35);
-}*/
 /*FLAGS*/
 .en{
   background: url('./img/en.png');
-  background-size: 100%, 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 
 }
@@ -130,86 +41,77 @@ header .language div {
   background-repeat: no-repeat;
 }
 
-header .language a:hover {
-  text-decoration: underline;
+/*WELCOME*/
+.welcome{
+  background: url('../src/img/bg5.jpg');
+  background-attachment: fixed;
+  padding: 3em;
+  color: white;
+  height: 100vh;
 }
-
-header .texts {
-  width: 100%;
-  color: #FFF;
-  text-align: left;
-  position: absolute;
-  top: 50%;
-  margin-top: -52px;
+.welcome h3{
+  margin: 0;
 }
-
-header .texts .name {
-  font-size: 50px;
-  font-weight: 600;
-}
-
-header .texts h3 {
-  font-weight: 600;
-  font-size: 25px;
-  font-style: italic;
+.welcome img{
+  margin-top: 8%;
+  margin-left: 25%;
+  box-shadow: 0px 0px 20px black;
 }
 
 /*ABOUT US*/
-.about-us{
-  background: #fff;
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
+.row {
+  margin-bottom: 0px !important;
 }
-.about-us h3{
-  font-size: 46px;
-  max-width: 200px;
-  text-align: center;
-  margin: 30px auto;
-  border-bottom: 3px solid #E4002B;
-  padding-bottom: 20px;
+.row .col{
+  padding: 0;
 }
-.about-us .list {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.about-us .list-element{
-  width: 45%;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: justify;
-  margin: 20px 0px;
-  padding: 10px;
-}
-.about-us .list-element i{
-  width: 10%;
-  color: #E4002B;
-  text-align: left;
-}
-.about-us .list-element p{
-  width: 90%;
-  float: right;
-  margin-top: 0;
-}
+
 /*MISSION*/
 
 .mission{
-  background: #eeeeee;
+  background: #f5f5f5;
   width: 100%;
   color: black;
   margin: 0 auto;
-  padding: 40px;
+  padding: 0.1em;
+  max-height: 800px;
 }
-.mission h3{
-  font-size: 40px;
-  max-width: 550px;
-  text-align: center;
-  margin: 10px auto;
-  border-bottom: 3px solid #E4002B;
-  padding-bottom: 20px;
-  margin-top: 50px !important;
+.card{
+  min-height: 380px;
+  background:#222222;
+  background-position: center 0;
+  padding: 4em 2em;
+  opacity: 0.8;
+  transition: 300ms all;
+  margin-bottom: 0px;
 }
+.card:hover{
+  opacity: 1;
+}
+.card-1{
+  background: /* url('../src/img/port1.jpg') */ #222222;
+}
+
+.card-2{
+  background: /* url('../src/img/port2.jpg') */ #222222;
+}
+.card-3{
+  background: /* url('../src/img/port3.jpg') */ #222222;
+}
+.card-4{
+  background: /* url('../src/img/port4.jpg') */ #222222;
+}
+
+/*PRODUCTS*/
+.product-image{
+  opacity: 0.8;
+}
+.product-image:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+
+
+/*MARKET*/
+
+/*CONTACT*/

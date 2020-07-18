@@ -1,5 +1,11 @@
 [
     {
+        "welcome": {
+            "en": "Welcome to MMITC",
+            "es": "Bienvenido a MMITC"
+        }
+    },
+    {
         "slogan": {
             "en": "MMITC is an International Trading Company formed by a team of experience professionals who have knowledge of the market and all the necessary marketing for each particular product.",
             "es": "MMITC es una empresa de comercio internacional formada por un equipo de profesionales con experiencia que tienen conocimiento del mercado y todo el marketing necesario para cada producto en particular.",
@@ -26,9 +32,9 @@
         }
     },
     {
-        "location_menu": {
-            "en": "Location",
-            "es": "Ubicación"
+        "products_menu": {
+            "en": "Products",
+            "es": "Productos"
         }
     },
     {
@@ -45,13 +51,13 @@
     },
     {
         "about_us_1": {
-            "en": "MMITC was born with the goal to provide a service in International Trade that is more agile, safe and profitable in order.",
+            "en": "We are an international company specializing in the marketing of foods and products. Our team has vast experience and knowledge in international trade and offers a wide variety of high quality products.",
             "es": ""
         }
     },
     {
         "about_us_2": {
-            "en": "MMITC accompanies the client every step of the way, ensuring compliance with the quality and time frames stipulated.",
+            "en": "MMITC accompanies the client every step of the way, ensuring compliance with the quality and time frames stipulated. We provides security, backup, quality and profits to our customers. MMITC was born with the goal to provide a service in International Trade that is more agile, safe and profitable in order.",
             "es": ""
         }
     },
@@ -63,14 +69,86 @@
     },
     {
         "about_us_4": {
-            "en": "We are an international company specializing in the marketing of foods and products. Our team has vast experience and knowledge in international trade and offers a wide variety of high quality products.",
+            "en": "MMITC was born with the goal to provide a service in International Trade that is more agile, safe and profitable in order.",
             "es": ""
+        }
+    },
+    {
+        "our_values": {
+            "en": "Our Values",
+            "es": "Nuestros Valores"
+        }
+    },
+    {
+        "our_values_text": {
+            "en": "Excellence | Commitment | Leadership | Ethics | Loyalty | Honesty | Trust | Transparency | Experience",
+            "es": "Excelencia | Compromiso | Liderazgo | Éticas | Lealtad | Honestidad | Confianza | Transparencia | Experiencia"
         }
     },
     {
         "mission_title": {
             "en": "Mission | Vision | Objectives",
             "es": "Misión | Visión | Objetivos"
+        }
+    },
+    {
+        "mission_1": {
+            "en": "MMITC consolidates leadership globally, expanding its reach of international trade services in all possible markets in order to position ourselves as one of the most efficient and effective global companies.",
+            "es": "Misión | Visión | Objetivos"
+        }
+    },
+    {
+        "mission_2": {
+            "en": "We provide better alternatives by taking into account the needs and personalized profile of each customer.",
+            "es": "Misión | Visión | Objetivos"
+        }
+    },
+    {
+        "mission_3": {
+            "en": "We strive to meet the needs of our customers by creating opportunities and solutions while maintaining a personalized treatment.",
+            "es": "Misión | Visión | Objetivos"
+        }
+    },
+    {
+        "mission_4": {
+            "en": "Our goal is to be the commercial partner of choice for our customers.",
+            "es": "Misión | Visión | Objetivos"
+        }
+    },
+    {
+        "products_text_1": {
+            "en": "All products are delivered according to the specifications requested by our customers.",
+            "es": ""
+        }
+    },
+    {
+        "products_text_2": {
+            "en": "The process is strictly supervised by our inspectors.",
+            "es": ""
+        }
+    },
+    {
+        "market_text_1": {
+            "en": "At MMITC, we are abreast of new developments and areas of growth in the international trade industry, so we are in contact with producers from various exporting countries in order to meet the demands of our customers.",
+            "es": ""
+        }
+    },
+    {
+        "market_text_2": {
+            "en": "MMITC has an ample and reliable network of suppliers. As a result, MMITC is able to more effectively negotiate the price and quality of the products.",
+            "es": ""
+        }
+    },
+    {
+        "market_text_3": {
+            "en": "We regularly work with the following markets:",
+            "es": ""
+        }
+    },
+    {
+        "countries": {
+            "en": "Argentina, Paraguay, Uruguay, Brazil, Chile, Peru, Russia, Georgia, Africa, China, Europe, Asia, Middle East, Mexico, India.",
+            "es": ""
         }
     }
 ]
